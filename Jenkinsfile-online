@@ -10,8 +10,8 @@ pipeline {
     }
 
     environment {
-        DOCKER_CREDENTIAL_ID = 'templearn'
-        GITHUB_CREDENTIAL_ID = 'zkf9971'
+        DOCKER_CREDENTIAL_ID = 'dockerhub-id'
+        GITHUB_CREDENTIAL_ID = 'github-id'
         KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
         REGISTRY = 'docker.io'
         DOCKERHUB_NAMESPACE = 'templearn'
