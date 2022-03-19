@@ -12,10 +12,9 @@ spec:
       port: 8080
       protocol: TCP
       targetPort: 8080
-      nodePort: 30961
   selector:
     app: kubesphere
     component: ks-sample
     tier: backend
   sessionAffinity: None
-  type: NodePort
+  type: LoadBalancer
