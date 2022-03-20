@@ -75,4 +75,4 @@ spec:
     component: ks-sample-dev
     tier: backend
   sessionAffinity: None
-  type: NodePort
+  type: LoadBalancer
